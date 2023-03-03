@@ -1,0 +1,88 @@
+ul.task-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+li.task {
+  display: flex;
+  flex-direction: column;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 5px;
+  padding-right: 5px;
+  max-width: 300px;
+
+  border-radius: 2px;
+}
+
+li.task.DONE { background-color: green; }
+li.task.TODO, li.task.INITIAL-TODO, li.task.POSTPONED { background-color: yellow; }
+li.task.OVERDUE { background-color: red; }
+
+div.task-header {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 10px;
+}
+
+div.task-title {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+span.task-title {
+  font-family: Roboto-Thin, sans-serif;
+  font-size: 15px;
+}
+
+span.task-subtitle {
+  font-family: Roboto-Thin, sans-serif;
+  font-size: 9px;
+}
+
+div.task-properties {}
+
+div.task-property {
+  display: flex;
+  align-items: center;
+}
+
+span.task-property-title {
+  font-family: Rubik, sans-serif;
+  font-weight: 100;
+  font-size: 10px;
+}
+
+span.task-property-value {
+  font-family: Roboto-Thin, sans-serif;
+  font-style: italic;
+  font-size: 10px;
+}
+
+select.task-edit {
+  font-family: Roboto-Thin, sans-serif;
+  font-size: 10px;
+}
+select.task-edit:hover { cursor: pointer; }
+
+div.task-state {
+  display: flex;
+  align-items: center;
+}
+
+div.task-property.state {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+div.task-state-checkbox {
+  display: flex;
+  align-items: center;
+}
+
+input[type="checkbox"].task-state-checkbox {
+  margin: 0;
+}

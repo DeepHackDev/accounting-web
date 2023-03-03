@@ -1,0 +1,31 @@
+button {
+  outline: none !important;
+  border: none;
+  background: transparent;
+  overflow: visible;
+  margin: 0;
+  touch-action: manipulation;
+}
+
+body {
+  margin: 0%;
+}
+
+input {
+  outline: none !important;
+  border: solid;
+}
+
+a {
+  color: var(--blue);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--veryLightGray);
+}
+
+*:focus {
+  outline: none;
+}

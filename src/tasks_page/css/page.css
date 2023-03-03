@@ -1,0 +1,19 @@
+div.tareas-page {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  padding-top: 20px;
+}
+
+div.tareas-page-title {
+  display: flex;
+  justify-content: center;
+}
+
+span.tareas-page-title {
+  font-family: Roboto-Regular, sans-serif;
+  font-size: 17px;
+  /*font-weight: bold;*/
+  /*text-decoration: underline;*/
+}

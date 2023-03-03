@@ -1,0 +1,35 @@
+:root {
+  --orange: rgb(255, 153, 1);
+  --darkRed: rgb(82, 0, 0);
+  --veryDarkRed: rgb(62, 0, 0);
+  --red: rgb(204, 0, 0);
+  --veryDarkBlue: rgb(0, 6, 38);
+  --darkBlue: rgb(49, 65, 102);
+  --blue: rgb(60, 127, 204);
+  --purpleBlue: rgb(81,68,213);
+  --lightBlue: rgb(45,156,219);
+  --veryLightBlue: rgb(75, 186, 250);
+  --transparentLightBlue: rgb(60, 127, 204, 0.8);
+  --verySoftTransparentLightBlue: rgba(45,156,219,0.9);
+  --successGreen: rgb(75,181,67);
+  --veryDarkMedicalGreen: rgb(1,131,120);
+  --darkMedicalGreen: rgb(1,151,142);
+  --medicalGreen: rgb(1,164,154);
+  --lightMedicalGreen: rgb(1,177,166);
+  --medicalOrange: rgb(245, 157, 60);
+  --lightMedicalOrange: rgb(245, 170, 72);
+  --black: rgb(0,0,0);
+  --lightBlack: rgb(51,51,51);
+  --veryLightBlack: rgb(71,71,71);
+  --darkGray: rgb(87,87,87);
+  --gray: rgb(119,119,119);
+  --lightGray: rgb(151,151,151);
+  --transparentLightGray: rgb(151,151,151,0.5);
+  --transparentGray: rgb(119,119,119,0.5);
+  --transparentDarkGray: rgb(87,87,87,0.5);
+  --hardLightGray: rgb(171,171,171);
+  --veryLightGray: rgb(213,213,213);
+  --veryDarkWhite: rgb(238,238,238);
+  --darkWhite: rgb(246,246,246);
+  --white: rgb(255,255,255);
+}
